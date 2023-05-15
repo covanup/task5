@@ -13,6 +13,7 @@
 		20990AF929FFA64500632197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20990AF729FFA64500632197 /* Main.storyboard */; };
 		20990AFB29FFA64600632197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20990AFA29FFA64600632197 /* Assets.xcassets */; };
 		20990AFE29FFA64600632197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20990AFC29FFA64600632197 /* LaunchScreen.storyboard */; };
+		20FCA39F2A12B22B008A691C /* View+Constaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FCA39E2A12B22B008A691C /* View+Constaints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		20990AFA29FFA64600632197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20990AFD29FFA64600632197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20990AFF29FFA64600632197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FCA39E2A12B22B008A691C /* View+Constaints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Constaints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				20990AF129FFA64400632197 /* AppDelegate.swift */,
 				20990AF329FFA64400632197 /* SceneDelegate.swift */,
 				20990AF529FFA64400632197 /* ViewController.swift */,
+				20FCA39E2A12B22B008A691C /* View+Constaints.swift */,
 				20990AF729FFA64500632197 /* Main.storyboard */,
 				20990AFA29FFA64600632197 /* Assets.xcassets */,
 				20990AFC29FFA64600632197 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20FCA39F2A12B22B008A691C /* View+Constaints.swift in Sources */,
 				20990AF629FFA64400632197 /* ViewController.swift in Sources */,
 				20990AF229FFA64400632197 /* AppDelegate.swift in Sources */,
 				20990AF429FFA64400632197 /* SceneDelegate.swift in Sources */,
